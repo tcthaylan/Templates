@@ -1,0 +1,68 @@
+/*=====================Geral=====================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body, .banner{
+    height: 100%;
+}
+body{
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.65;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    
+}
+.sobre{
+    padding: 50px 0;
+}
+/*=====================Layout=====================*/
+/*====NAV====*/
+/*logo*/
+.navbar-light .navbar-brand{
+    color: #0B3954;
+}
+.navbar-light .navbar-brand:hover{
+    color: #0B3954;
+}
+/*nav link*/
+.navbar-light .navbar-nav .nav-link{
+    padding: 10px 20px;
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #0B3954;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    
+}
+
+/*Banner*/
+.banner{
+    background-image: url('../imagens/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-banner{
+    color: #fff;
+    text-align: center;
+}
+
+/*Sobre*/
+.sobre{
+    text-align: center;
+}
+.img-sobre{
+    width: 250px;
+    margin-bottom: 10px;
+}
+/*=====================Tipografia=====================*/
